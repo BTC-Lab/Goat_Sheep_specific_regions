@@ -41,7 +41,7 @@ graph TD;
     and_not_a_Sheep-->Goat;
     not_a_Goat-->align_to_Sheep(Align to Sheep Reference Genome);
 ```
-# Example: Screenshot
+# Example
 A Screenshot shows that the upper samples with almost zero coverage for the Goat-specific region are not Goat samples. While the lower samples with good coverage are real Goat NGS samples.
 ![Alt text](screenshots/screenshot.png?raw=true "Example")
 
