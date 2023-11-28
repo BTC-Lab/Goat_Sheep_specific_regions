@@ -30,18 +30,20 @@ graph TD;
     Goat_Reference_Genome-->check_coverage_in_Goat_specific_regions(Check coverage in Goat-specific regions);
     check_coverage_in_Sheep_specific_regions-->if_coverage_almost_zero(If coverage is almost zero);
     check_coverage_in_Sheep_specific_regions-->if_coverage_is_good(If coverage is good, i.e. average);
-    if_coverage_is_good-->and_not_a_Goat(If also not a Goat);
-    and_not_a_Goat-->Sheep;
+    if_coverage_is_good -- If also not a Goat -->Sheep;
     if_coverage_almost_zero-->not_a_Sheep(Not a Sheep);
-    not_a_Sheep-->align_to_Goat(Align to Goat Reference Genome);
     check_coverage_in_Goat_specific_regions-->if_coverage_almost_zero.(If coverage is almost zero);
     if_coverage_almost_zero. -->not_a_Goat(Not a Goat);
     check_coverage_in_Goat_specific_regions-->if_coverage_is_good.(If coverage is good, i.e. average);
-    if_coverage_is_good. -->and_not_a_Sheep(If also not a Sheep);
-    and_not_a_Sheep-->Goat;
-    not_a_Goat-->align_to_Sheep(Align to Sheep Reference Genome);
+    if_coverage_is_good. -- If also not a Sheep -->Goat
 ```
 # Example
 A Screenshot shows that the upper samples with almost zero coverage for the Goat-specific region are not Goat samples. While the lower samples with good coverage are real Goat NGS samples.
 ![Alt text](screenshots/screenshot.png?raw=true "Example")
 
+# Citation
+**Title:** A Genomic Approach for Accurate Identification of Sheep and Goat Species in Next-Generation Sequencing Samples<br />
+Nour al dain Marzouka1, Amira Al-Aamri1, Habiba Alsafar1,2,3<br />
+1 Center for Biotechnology, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates.<br />
+2 College of Medicine and Health Sciences, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates.<br />
+3 Department of Biomedical Engineering, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates.<br />
