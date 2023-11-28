@@ -21,3 +21,21 @@ sh calculate_coverage.sh goat_specific_regions.bed /path/to/aligned_to_goat_refe
 ### Step 5:
 a) If the coverage average is almost zero in the Sheep-specific region(s) and as expected (i.e., coverage average level) for the Goat-specific regions, then the sample is for a Goat.
 b) If the coverage average is almost zero in the Goat-specific region(s) and as expected (i.e., coverage average level) for the Sheep-specific regions, then the sample is for a Sheep.
+
+```mermaid
+graph TD;
+    Unlabeled_NGS_Sample(Unlabeled NGS Sheep/Goat Sample)-->Sheep_Reference_Genome(Sheep Reference Genome);
+    Unlabeled_NGS_Sample(Unlabeled NGS Sheep/Goat Sample)-->Goat_Reference_Genome(Goat Reference Genome);
+    Sheep_Reference_Genome-->check_coverage_in_Sheep_specific_regions(check coverage in Sheep-specific regions);
+    Goat_Reference_Genome-->check_coverage_in_Goat_specific_regions(check coverage in Goat-specific regions);
+    check_coverage_in_Sheep_specific_regions-->if_coverage_almost_zero(if coverage is almost zero);
+    check_coverage_in_Sheep_specific_regions-->if_coverage_is_good(if coverage is good, i.e. average);
+    if_coverage_is_good-->Sheep;
+    if_coverage_almost_zero-->not_a_sheep(Not a Sheep);
+    not_a_sheep-->align_to_goat(Align to Goat Reference Genome);
+    check_coverage_in_Goat_specific_regions-->if_coverage_almost_zero.(if coverage is almost zero);
+    check_coverage_in_Goat_specific_regions-->if_coverage_is_good.(if coverage is good, i.e. average);
+    if_coverage_is_good. -->Goat;
+    if_coverage_almost_zero. -->not_a_goat(Not a Goat);
+    not_a_goat-->align_to_sheep(Align to Sheep Reference Genome);
+```
