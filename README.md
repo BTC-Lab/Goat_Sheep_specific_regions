@@ -22,7 +22,7 @@ sh calculate_coverage.sh goat_specific_regions.bed /path/to/aligned_to_goat_refe
 a) If the coverage average is almost zero in the Sheep-specific region(s) and as expected (i.e., coverage average level) for the Goat-specific regions, then the sample is for a Goat.
 b) If the coverage average is almost zero in the Goat-specific region(s) and as expected (i.e., coverage average level) for the Sheep-specific regions, then the sample is for a Sheep.
 
-```mermaid
+```workflow
 graph TD;
     Unlabeled_NGS_Sample(Unlabeled NGS Sheep/Goat Sample)-->Sheep_Reference_Genome(Sheep Reference Genome);
     Unlabeled_NGS_Sample(Unlabeled NGS Sheep/Goat Sample)-->Goat_Reference_Genome(Goat Reference Genome);
