@@ -1,2 +1,2 @@
 The top 10 Sheep specific regions are demonstrated in these screenshots. 
-A cut of 500bp before the start and after the end of the region is shown as well to indicate the cut region.
+A cut of 200bp before the start and after the end of the region is shown as well to indicate the cut region.
