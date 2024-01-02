@@ -38,7 +38,7 @@ graph TD;
     if_coverage_is_good. -- If also not a Sheep -->Goat
 ```
 # Example
-A Screenshot shows that the lower samples with almost zero coverage for the Goat-specific region are not Goat samples. While the upper samples with good coverage are real Goat NGS samples.
+The screenshot displays NGS samples from Goats (upper samples), clearly demonstrating good coverage in the Goat-specific region. The lower portion of the screenshot features samples from Sheep (i.e., non-Goat), where there is almost no coverage (<1x) detected in this particular region.
 ![Alt text](screenshots/screenshot.png?raw=true "Example")
 
 # Citation
