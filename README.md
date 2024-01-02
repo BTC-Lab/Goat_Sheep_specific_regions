@@ -29,16 +29,16 @@ graph TD;
     Sheep_Reference_Genome-->check_coverage_in_Sheep_specific_regions(Check coverage in Sheep-specific regions);
     Goat_Reference_Genome-->check_coverage_in_Goat_specific_regions(Check coverage in Goat-specific regions);
     check_coverage_in_Sheep_specific_regions-->if_coverage_almost_zero(If coverage is almost zero);
-    check_coverage_in_Sheep_specific_regions-->if_coverage_is_good(If coverage is good, i.e. average);
+    check_coverage_in_Sheep_specific_regions-->if_coverage_is_good(If coverage is good,\ni.e. around sample average coverage);
     if_coverage_is_good -- If also not a Goat -->Sheep;
     if_coverage_almost_zero-->not_a_Sheep(Not a Sheep);
     check_coverage_in_Goat_specific_regions-->if_coverage_almost_zero.(If coverage is almost zero);
     if_coverage_almost_zero. -->not_a_Goat(Not a Goat);
-    check_coverage_in_Goat_specific_regions-->if_coverage_is_good.(If coverage is good, i.e. average);
+    check_coverage_in_Goat_specific_regions-->if_coverage_is_good.(If coverage is good,\ni.e. around sample average coverage);
     if_coverage_is_good. -- If also not a Sheep -->Goat
 ```
 # Example
-The screenshot displays NGS samples from Goats (upper samples), clearly demonstrating good coverage in the Goat-specific region. The lower portion of the screenshot features samples from Sheep (i.e., non-Goat), where there is almost no coverage (<1x) detected in this particular region.
+The screenshot displays NGS Goat samples (upper samples), demonstrating good coverage in the Goat-specific region. The lower portion of the screenshot features Sheep samples (i.e. non-Goat), where there is almost no coverage (<1x) detected in this particular region.
 ![Alt text](screenshots/screenshot.png?raw=true "Example")
 
 # Citation
