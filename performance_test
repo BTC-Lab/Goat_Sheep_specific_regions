@@ -1,9 +1,9 @@
 ## Five random Sheep and Goat samples are tested for performance using one of the top regions
 
-Sheep Specific Region:  NC_056066.1:42502936-42505123
-Goat Specific Region:   NC_030831.1:13675983-13676691
+Sheep-Specific Region:  NC_056066.1:42502936-42505123
+Goat-Specific Region:   NC_030831.1:13675983-13676691
 
-SHEEP samples - Coverage with SHEEP
+SHEEP samples - Coverage with SHEEP-specific regions
 
 CPRA_083_S2     38.1706
 CPRA_084_S3     32.316
@@ -11,7 +11,7 @@ CPRA_085_S4     30.0343
 CPRA_086_S5     63.8427
 CPRA_087_S6     27.3612
 
-SHEEP samples - Coverage with GOAT
+SHEEP samples - Coverage with GOAT-specific regions
 
 CPRA_083_S2     0
 CPRA_084_S3     0
@@ -19,7 +19,7 @@ CPRA_085_S4     0
 CPRA_086_S5     0.230226
 CPRA_087_S6     0
 
-GOAT samples - Coverage with GOAT
+GOAT samples - Coverage with GOAT-specific regions
 
 CPRA_073_S4     46.7458
 CPRA_074_S5     37.7585
@@ -27,7 +27,7 @@ CPRA_075_S6     37.5805
 CPRA_076_S7     37.9718
 CPRA_077_S8     32.9449
 
-GOAT samples - Coverage with SHEEP
+GOAT samples - Coverage with SHEEP-specific regions
 
 CPRA_073_S4     0.0621856
 CPRA_074_S5     0.0704161
