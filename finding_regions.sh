@@ -52,7 +52,7 @@ do
 done
 
 ## further step to decide the top 10 regions to view in IGV
-cat cov_matrix_sheep.tsv | sort -k2 -n | head -10 | cut -f 1
+cat cov_matrix_sheep.tsv | sort -k2 -n | head -30 | cut -f 1
 ## After further manual checking, the top 10 regions are saved to "sheep_specific_regions_selected.bed" 
 
 ################################### Goat ###################################
@@ -109,5 +109,5 @@ do
 done
 
 ## further step to decide the top 10 regions to view in IGV
-cat cov_matrix_goat.tsv | sort -k2 -n | head -10 | cut -f 1
+cat cov_matrix_goat.tsv | sort -k2 -n | head -30 | cut -f 1
 ## After further manual checking, the top 10 regions are saved to "goat_specific_regions_selected.bed" 
