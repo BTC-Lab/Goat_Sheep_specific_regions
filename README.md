@@ -11,12 +11,12 @@ Align the unlabeled sample to the Goat reference genome (Tested on ARS1.2, Illum
 ### Step 3: 
 Check the coverage of the Sheep-specific regions in the Sheep-aligned file.
 ```
-sh calculate_coverage.sh Sheep_specific_regions.bed /path/to/aligned_to_Sheep_reference.bam
+sh calculate_coverage.sh sheep_specific_regions_selected.bed /path/to/aligned_to_Sheep_reference.bam
 ```
 ### Step 4: 
 Check the coverage of the Goat-specific regions in the Goat-aligned file.
 ```
-sh calculate_coverage.sh Goat_specific_regions.bed /path/to/aligned_to_Goat_reference.bam
+sh calculate_coverage.sh goat_specific_regions_selected.bed /path/to/aligned_to_Goat_reference.bam
 ```
 ### Step 5:
 a) If the coverage average is almost zero in the Sheep-specific region(s) and as expected (i.e., coverage average level) for the Goat-specific regions, then the sample is for a Goat.
