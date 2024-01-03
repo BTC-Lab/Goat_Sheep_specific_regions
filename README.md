@@ -9,12 +9,14 @@ Align the unlabeled sample to the Sheep reference genome (Tested on ARS-UI_Ramb_
 ### Step 2: 
 Align the unlabeled sample to the Goat reference genome (Tested on ARS1.2, Illumina, whole genome sequencing).
 ### Step 3: 
-Check the coverage of the Sheep-specific regions in the Sheep-aligned file.
+Check the coverage of the Sheep-specific regions in the Sheep-aligned file. The input bed file should be without a header. 
+The output bed file contains four columns, the original three input columns with a fourth column presenting the average coverage in the region.
 ```
 sh calculate_coverage.sh sheep_specific_regions_selected.bed /path/to/aligned_to_Sheep_reference.bam
 ```
 ### Step 4: 
-Check the coverage of the Goat-specific regions in the Goat-aligned file.
+Check the coverage of the Goat-specific regions in the Goat-aligned file. The input bed file should be without a header. 
+The output bed file contains four columns, the original three input columns with a fourth column presenting the average coverage in the region.
 ```
 sh calculate_coverage.sh goat_specific_regions_selected.bed /path/to/aligned_to_Goat_reference.bam
 ```
