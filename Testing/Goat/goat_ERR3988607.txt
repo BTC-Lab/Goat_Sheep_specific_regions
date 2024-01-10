@@ -1,0 +1,15 @@
+## command= sh calculate_coverage.sh goat_specific_regions.bed /btc_share/scratch/amira_ws/animals/testRegions/real_goat/Analysis/ERR3988607/ERR3988607_deduped.bam 
+##chrom	start	end	coverage
+NC_030811.1 9189686 9190241	8.31532
+NC_030815.1 1639607 1640124	8.73308
+NC_030815.1 89033445 89033929	9.95455
+NC_030817.1 14363141 14363768	12.3668
+NC_030818.1 19059679 19060308	9.3132
+NC_030819.1 78876484 78877107	7.51525
+NC_030822.1 27911796 27912433	11.4349
+NC_030825.1 9518750 9519236	3.69136
+NC_030827.1 31744884 31745471	10.0716
+NC_030833.1 23762666 23764639	9.35226
+
+## average coverage for the given regions is: 9.07483
+## if average coverage is < 1, the sample does not seem to match with current reference genome, alignment to another reference genome is recommended

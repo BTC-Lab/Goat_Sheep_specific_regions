@@ -1,0 +1,15 @@
+## command= sh calculate_coverage.sh goat_specific_regions.bed /btc_share/bmshare_copying/Projects/WGS_Animals/BAM_files/Goat/CPRA_075_S6/CPRA_075_S6_deduped.bam 
+##chrom	start	end	coverage
+NC_030811.1 9189686 9190241	26.7225
+NC_030815.1 1639607 1640124	37.0619
+NC_030815.1 89033445 89033929	27.907
+NC_030817.1 14363141 14363768	27.1483
+NC_030818.1 19059679 19060308	35.2528
+NC_030819.1 78876484 78877107	37.1059
+NC_030822.1 27911796 27912433	30.978
+NC_030825.1 9518750 9519236	24.537
+NC_030827.1 31744884 31745471	24.1329
+NC_030833.1 23762666 23764639	30.5525
+
+## average coverage for the given regions is: 30.1399
+## if average coverage is < 1, the sample does not seem to match with current reference genome, alignment to another reference genome is recommended
