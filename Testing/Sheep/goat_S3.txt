@@ -1,0 +1,15 @@
+## command= sh calculate_coverage.sh sheep_specific_regions.bed /btc_share/bmshare_copying/Projects/WGS_Animals/BAM_files/Goat2Sheep/CPRA_075_S6/CPRA_075_S6_deduped.bam 
+##chrom	start	end	coverage
+NC_056055.1 72752582 72754965	0.0574906
+NC_056058.1 82801325 82804058	0.0237834
+NC_056060.1 53785302 53787489	0.00914495
+NC_056062.1 84555330 84559214	0.0223996
+NC_056063.1 41611380 41613958	0.00581846
+NC_056068.1 14655024 14658653	0.000275558
+NC_056068.1 34033704 34036921	0.0690084
+NC_056070.1 35040542 35043956	0.31488
+NC_056075.1 21693259 21695437	0.157943
+NC_056076.1 29548956 29551728	0.0220058
+
+## average coverage for the given regions is: 0.0682749
+## warning: average coverage is < 1, the sample does not seem to match with current reference genome, alignment to another reference genome is recommended

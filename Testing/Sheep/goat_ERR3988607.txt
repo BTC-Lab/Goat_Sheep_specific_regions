@@ -1,0 +1,15 @@
+## command= sh calculate_coverage.sh sheep_specific_regions.bed /btc_share/scratch/amira_ws/animals/testRegions/goat2sheep/Analysis/ERR3988607/ERR3988607_deduped.bam 
+##chrom	start	end	coverage
+NC_056055.1 72752582 72754965	0.0276962
+NC_056058.1 82801325 82804058	0.0314673
+NC_056060.1 53785302 53787489	0.00274348
+NC_056062.1 84555330 84559214	0.0105561
+NC_056063.1 41611380 41613958	0.0209465
+NC_056068.1 14655024 14658653	0.0129512
+NC_056068.1 34033704 34036921	0.00901461
+NC_056070.1 35040542 35043956	0.00937317
+NC_056075.1 21693259 21695437	0.00183655
+NC_056076.1 29548956 29551728	0.0299423
+
+## average coverage for the given regions is: 0.0156528
+## warning: average coverage is < 1, the sample does not seem to match with current reference genome, alignment to another reference genome is recommended
