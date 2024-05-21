@@ -1,0 +1,647 @@
+  5.90	59	59	0	0	U	0	unclassified
+ 94.10	941	47	1908	1882	R	1	root
+ 89.40	894	2	1818	1793	R1	131567	  cellular organisms
+ 88.70	887	8	1802	1777	D	2759	    Eukaryota
+ 87.30	873	0	1762	1737	D1	33154	      Opisthokonta
+ 87.10	871	0	1756	1731	K	33208	        Metazoa
+ 87.10	871	0	1756	1731	K1	6072	          Eumetazoa
+ 87.10	871	5	1755	1730	K2	33213	            Bilateria
+ 81.10	811	1	1644	1619	K3	33511	              Deuterostomia
+ 81.00	810	0	1643	1618	P	7711	                Chordata
+ 81.00	810	0	1643	1618	P1	89593	                  Craniata
+ 81.00	810	0	1643	1618	P2	7742	                    Vertebrata
+ 81.00	810	0	1643	1618	P3	7776	                      Gnathostomata
+ 80.90	809	0	1642	1617	P4	117570	                        Teleostomi
+ 80.90	809	2	1642	1617	P5	117571	                          Euteleostomi
+ 79.20	792	0	1614	1589	P6	8287	                            Sarcopterygii
+ 79.20	792	0	1614	1589	P7	1338369	                              Dipnotetrapodomorpha
+ 79.20	792	0	1614	1589	P8	32523	                                Tetrapoda
+ 79.20	792	3	1614	1589	P9	32524	                                  Amniota
+ 78.40	784	0	1600	1575	C	40674	                                    Mammalia
+ 78.40	784	4	1599	1574	C1	32525	                                      Theria
+ 78.00	780	2	1592	1567	C2	9347	                                        Eutheria
+ 77.80	778	16	1588	1563	C3	1437010	                                          Boreoeutheria
+ 75.10	751	10	1533	1508	C4	314145	                                            Laurasiatheria
+ 72.50	725	20	1474	1449	O	91561	                                              Artiodactyla
+ 69.40	694	0	1401	1376	O1	9845	                                                Ruminantia
+ 69.40	694	199	1399	1374	O2	35500	                                                  Pecora
+ 38.00	380	68	749	727	F	9895	                                                    Bovidae
+ 22.90	229	23	446	426	F1	9963	                                                      Caprinae
+ 18.10	181	4	355	348	G	9935	                                                        Ovis
+ 16.70	167	1	328	321	S	37174	                                                          Ovis canadensis
+ 16.60	166	166	324	317	S1	112262	                                                            Ovis canadensis canadensis
+  1.00	10	10	19	19	S	9940	                                                          Ovis aries
+  1.90	19	0	38	29	G	9922	                                                        Capra
+  1.90	19	19	38	29	S	9925	                                                          Capra hircus
+  0.40	4	0	6	6	G	9898	                                                        Ammotragus
+  0.40	4	4	6	6	S	9899	                                                          Ammotragus lervia
+  0.20	2	0	3	3	G	37180	                                                        Budorcas
+  0.20	2	2	3	3	S	37181	                                                          Budorcas taxicolor
+  8.10	81	1	162	162	F1	27592	                                                      Bovinae
+  7.70	77	50	154	154	G	9903	                                                        Bos
+  1.30	13	13	24	24	S	9913	                                                          Bos taurus
+  1.20	12	12	26	26	S	72004	                                                          Bos mutus
+  0.10	1	1	1	1	S	1705790	                                                          Bos gaurus x Bos taurus
+  0.10	1	1	2	2	S	9915	                                                          Bos indicus
+  0.20	2	0	3	3	G	9918	                                                        Bubalus
+  0.20	2	2	3	3	S	89462	                                                          Bubalus bubalis
+  0.10	1	0	3	3	G	9900	                                                        Bison
+  0.10	1	0	3	3	S	9901	                                                          Bison bison
+  0.10	1	1	3	3	S1	43346	                                                            Bison bison bison
+  0.10	1	1	1	1	F1	9948	                                                      Antilopinae
+  0.10	1	1	3	3	F1	9959	                                                      Hippotraginae
+ 11.50	115	0	226	226	F	9850	                                                    Cervidae
+ 11.50	115	0	226	226	F1	34878	                                                      Cervinae
+ 11.50	115	0	226	226	G	9859	                                                        Cervus
+ 11.40	114	114	224	224	S	9860	                                                          Cervus elaphus
+  0.10	1	1	2	2	S	1574408	                                                          Cervus canadensis
+  1.00	10	0	20	20	O1	2653789	                                                Whippomorpha
+  1.00	10	1	20	20	O2	9721	                                                  Cetacea
+  0.90	9	0	19	19	O3	9722	                                                    Odontoceti
+  0.90	9	1	18	18	F	9726	                                                      Delphinidae
+  0.80	8	0	15	15	G	9732	                                                        Orcinus
+  0.80	8	8	15	15	S	9733	                                                          Orcinus orca
+  0.10	1	0	5	5	O1	35497	                                                Suina
+  0.10	1	0	5	5	F	9821	                                                  Suidae
+  0.10	1	0	5	5	G	9822	                                                    Sus
+  0.10	1	1	5	5	S	9823	                                                      Sus scrofa
+  1.30	13	0	33	33	O	33554	                                              Carnivora
+  1.20	12	0	28	28	O1	379584	                                                Caniformia
+  1.00	10	0	21	21	F	9608	                                                  Canidae
+  1.00	10	0	21	21	G	9611	                                                    Canis
+  1.00	10	10	21	21	S	9612	                                                      Canis lupus
+  0.20	2	0	5	5	F	9655	                                                  Mustelidae
+  0.10	1	0	3	3	F1	169417	                                                    Lutrinae
+  0.10	1	0	3	3	G	9656	                                                      Lutra
+  0.10	1	1	3	3	S	9657	                                                        Lutra lutra
+  0.10	1	0	2	2	F1	1008252	                                                    Melinae
+  0.10	1	0	2	2	G	9661	                                                      Meles
+  0.10	1	1	2	2	S	9662	                                                        Meles meles
+  0.10	1	0	3	3	O1	379583	                                                Feliformia
+  0.10	1	0	3	3	F	9681	                                                  Felidae
+  0.10	1	0	3	3	F1	338152	                                                    Felinae
+  0.10	1	0	3	3	G	9682	                                                      Felis
+  0.10	1	1	3	3	S	9685	                                                        Felis catus
+  0.30	3	0	4	4	O	9397	                                              Chiroptera
+  0.20	2	0	3	3	O1	30560	                                                Microchiroptera
+  0.20	2	0	2	2	F	9431	                                                  Vespertilionidae
+  0.20	2	0	2	2	G	27671	                                                    Pipistrellus
+  0.20	2	2	2	2	S	59474	                                                      Pipistrellus pipistrellus
+  0.10	1	0	1	1	O1	30559	                                                Megachiroptera
+  0.10	1	0	1	1	F	9398	                                                  Pteropodidae
+  0.10	1	0	1	1	F1	77225	                                                    Pteropodinae
+  0.10	1	0	1	1	G	9406	                                                      Rousettus
+  0.10	1	1	1	1	S	9407	                                                        Rousettus aegyptiacus
+  1.10	11	0	23	23	C4	314146	                                            Euarchontoglires
+  0.70	7	0	13	13	C5	314147	                                              Glires
+  0.70	7	0	13	13	O	9989	                                                Rodentia
+  0.30	3	0	4	4	O1	33553	                                                  Sciuromorpha
+  0.30	3	0	4	4	F	55153	                                                    Sciuridae
+  0.20	2	0	3	3	F1	9991	                                                      Sciurinae
+  0.20	2	0	3	3	F2	337752	                                                        Sciurini
+  0.20	2	0	3	3	G	10001	                                                          Sciurus
+  0.20	2	2	2	2	S	30640	                                                            Sciurus carolinensis
+  0.10	1	0	1	1	F1	337726	                                                      Xerinae
+  0.10	1	0	1	1	F2	337730	                                                        Marmotini
+  0.10	1	0	1	1	G	1141640	                                                          Ictidomys
+  0.10	1	1	1	1	S	43179	                                                            Ictidomys tridecemlineatus
+  0.30	3	0	5	5	O1	1963758	                                                  Myomorpha
+  0.30	3	0	5	5	O2	337687	                                                    Muroidea
+  0.30	3	0	5	5	F	10066	                                                      Muridae
+  0.20	2	0	4	4	F1	39107	                                                        Murinae
+  0.20	2	0	4	4	G	10088	                                                          Mus
+  0.20	2	0	4	4	G1	862507	                                                            Mus
+  0.20	2	2	4	4	S	10090	                                                              Mus musculus
+  0.10	1	0	1	1	F1	326408	                                                        Deomyinae
+  0.10	1	0	1	1	G	10067	                                                          Acomys
+  0.10	1	1	1	1	S	60746	                                                            Acomys russatus
+  0.10	1	0	4	4	O1	33550	                                                  Hystricomorpha
+  0.10	1	0	4	4	F	10167	                                                    Bathyergidae
+  0.10	1	0	4	4	G	10180	                                                      Heterocephalus
+  0.10	1	1	4	4	S	10181	                                                        Heterocephalus glaber
+  0.40	4	0	10	10	O	9443	                                              Primates
+  0.40	4	0	10	10	O1	376913	                                                Haplorrhini
+  0.40	4	0	10	10	O2	314293	                                                  Simiiformes
+  0.40	4	0	10	10	O3	9526	                                                    Catarrhini
+  0.40	4	0	8	8	O4	314295	                                                      Hominoidea
+  0.40	4	0	8	8	F	9604	                                                        Hominidae
+  0.40	4	0	8	8	F1	207598	                                                          Homininae
+  0.30	3	0	7	7	G	9605	                                                            Homo
+  0.30	3	3	7	7	S	9606	                                                              Homo sapiens
+  0.10	1	0	1	1	G	9596	                                                            Pan
+  0.10	1	1	1	1	S	9598	                                                              Pan troglodytes
+  0.50	5	0	6	6	P10	8457	                                    Sauropsida
+  0.50	5	0	6	6	P11	32561	                                      Sauria
+  0.40	4	0	5	5	P12	1329799	                                        Archelosauria
+  0.30	3	0	4	4	P13	8492	                                          Archosauria
+  0.30	3	0	4	4	P14	436486	                                            Dinosauria
+  0.30	3	0	4	4	P15	436489	                                              Saurischia
+  0.30	3	0	4	4	P16	436491	                                                Theropoda
+  0.30	3	0	4	4	P17	436492	                                                  Coelurosauria
+  0.30	3	0	4	4	C	8782	                                                    Aves
+  0.30	3	0	4	4	C1	8825	                                                      Neognathae
+  0.20	2	0	2	2	O	2558200	                                                        Accipitriformes
+  0.20	2	0	2	2	F	56259	                                                          Accipitridae
+  0.20	2	0	2	2	F1	8955	                                                            Accipitrinae
+  0.20	2	0	2	2	G	8960	                                                              Aquila
+  0.20	2	0	2	2	S	8962	                                                                Aquila chrysaetos
+  0.20	2	2	2	2	S1	223781	                                                                  Aquila chrysaetos chrysaetos
+  0.10	1	0	1	1	C2	1549675	                                                        Galloanserae
+  0.10	1	0	1	1	O	8976	                                                          Galliformes
+  0.10	1	0	1	1	F	9005	                                                            Phasianidae
+  0.10	1	0	1	1	F1	9072	                                                              Phasianinae
+  0.10	1	0	1	1	G	9030	                                                                Gallus
+  0.10	1	1	1	1	S	9031	                                                                  Gallus gallus
+  0.10	1	0	1	1	P13	2841271	                                          Testudinata
+  0.10	1	0	1	1	O	8459	                                            Testudines
+  0.10	1	0	1	1	O1	8464	                                              Cryptodira
+  0.10	1	0	1	1	O2	1579337	                                                Durocryptodira
+  0.10	1	0	1	1	O3	1579336	                                                  Americhelydia
+  0.10	1	0	1	1	O4	27791	                                                    Chelonioidea
+  0.10	1	0	1	1	F	27792	                                                      Dermochelyidae
+  0.10	1	0	1	1	G	27793	                                                        Dermochelys
+  0.10	1	1	1	1	S	27794	                                                          Dermochelys coriacea
+  0.10	1	0	1	1	C	8504	                                        Lepidosauria
+  0.10	1	0	1	1	O	8509	                                          Squamata
+  0.10	1	0	1	1	O1	1329961	                                            Bifurcata
+  0.10	1	0	1	1	O2	1329950	                                              Unidentata
+  0.10	1	0	1	1	O3	1329912	                                                Episquamata
+  0.10	1	0	1	1	O4	1329911	                                                  Toxicofera
+  0.10	1	0	1	1	O5	8570	                                                    Serpentes
+  0.10	1	0	1	1	O6	34989	                                                      Colubroidea
+  0.10	1	0	1	1	F	8689	                                                        Viperidae
+  0.10	1	0	1	1	F1	8690	                                                          Viperinae
+  0.10	1	0	1	1	G	8703	                                                            Vipera
+  0.10	1	1	1	1	S	103942	                                                              Vipera ursinii
+  1.50	15	0	23	23	P6	7898	                            Actinopterygii
+  1.50	15	0	23	23	C	186623	                              Actinopteri
+  1.40	14	0	22	22	C1	41665	                                Neopterygii
+  1.40	14	0	22	22	C2	32443	                                  Teleostei
+  1.40	14	0	22	22	C3	1489341	                                    Osteoglossocephalai
+  1.40	14	0	22	22	C4	186625	                                      Clupeocephala
+  0.80	8	0	16	16	C5	1489388	                                        Euteleosteomorpha
+  0.70	7	0	15	15	C6	123365	                                          Neoteleostei
+  0.70	7	0	15	15	C7	123366	                                            Eurypterygia
+  0.70	7	0	15	15	C8	123367	                                              Ctenosquamata
+  0.70	7	0	15	15	C9	123368	                                                Acanthomorphata
+  0.70	7	0	15	15	C10	123369	                                                  Euacanthomorphacea
+  0.70	7	0	15	15	C11	1489872	                                                    Percomorphaceae
+  0.30	3	0	7	7	C12	1489908	                                                      Ovalentaria
+  0.20	2	0	5	5	C13	1489913	                                                        Atherinomorphae
+  0.10	1	0	2	2	O	8075	                                                          Atheriniformes
+  0.10	1	0	1	1	F	238703	                                                            Telmatherinidae
+  0.10	1	0	1	1	G	270533	                                                              Telmatherina
+  0.10	1	1	1	1	S	446457	                                                                Telmatherina bonti
+  0.10	1	0	3	3	O	76071	                                                          Beloniformes
+  0.10	1	0	3	3	O1	28781	                                                            Adrianichthyoidei
+  0.10	1	0	3	3	F	47757	                                                              Adrianichthyidae
+  0.10	1	0	3	3	F1	8088	                                                                Oryziinae
+  0.10	1	0	3	3	G	8089	                                                                  Oryzias
+  0.10	1	1	3	3	S	8090	                                                                    Oryzias latipes
+  0.10	1	0	1	1	C13	1489920	                                                        Blenniimorphae
+  0.10	1	0	1	1	O	1489921	                                                          Blenniiformes
+  0.10	1	0	1	1	O1	123349	                                                            Gobiesocoidei
+  0.10	1	0	1	1	F	63826	                                                              Gobiesocidae
+  0.10	1	0	1	1	F1	557415	                                                                Gobiesocinae
+  0.10	1	0	1	1	G	210581	                                                                  Gouania
+  0.10	1	1	1	1	S	441366	                                                                    Gouania willdenowi
+  0.20	2	0	4	4	C12	1489922	                                                      Eupercaria
+  0.10	1	0	3	3	O	8111	                                                        Perciformes
+  0.10	1	0	1	1	O1	8100	                                                          Cottioidei
+  0.10	1	0	1	1	O2	1490021	                                                            Cottales
+  0.10	1	0	1	1	F	8092	                                                              Cottidae
+  0.10	1	0	1	1	G	61642	                                                                Taurulus
+  0.10	1	1	1	1	S	61643	                                                                  Taurulus bubalis
+  0.10	1	0	1	1	O	1489931	                                                        Spariformes
+  0.10	1	0	1	1	F	8169	                                                          Sparidae
+  0.10	1	0	1	1	G	8176	                                                            Acanthopagrus
+  0.10	1	1	1	1	S	8177	                                                              Acanthopagrus latus
+  0.10	1	0	1	1	C12	1489875	                                                      Gobiaria
+  0.10	1	0	1	1	O	1489876	                                                        Kurtiformes
+  0.10	1	0	1	1	O1	1489877	                                                          Apogonoidei
+  0.10	1	0	1	1	F	83881	                                                            Apogonidae
+  0.10	1	0	1	1	F1	475176	                                                              Apogoninae
+  0.10	1	0	1	1	G	375763	                                                                Sphaeramia
+  0.10	1	1	1	1	S	375764	                                                                  Sphaeramia orbicularis
+  0.10	1	0	1	1	C12	1489904	                                                      Carangaria
+  0.10	1	0	1	1	O	1489907	                                                        Carangiformes
+  0.10	1	0	1	1	F	173245	                                                          Echeneidae
+  0.10	1	0	1	1	G	173246	                                                            Echeneis
+  0.10	1	1	1	1	S	173247	                                                              Echeneis naucrates
+  0.10	1	0	1	1	C6	41705	                                          Protacanthopterygii
+  0.10	1	0	1	1	O	8006	                                            Salmoniformes
+  0.10	1	0	1	1	F	8015	                                              Salmonidae
+  0.10	1	0	1	1	F1	504567	                                                Coregoninae
+  0.10	1	0	1	1	G	27772	                                                  Coregonus
+  0.10	1	0	1	1	G1	2649731	                                                    unclassified Coregonus
+  0.10	1	1	1	1	S	861768	                                                      Coregonus sp. 'balchen'
+  0.60	6	0	6	6	C5	186634	                                        Otomorpha
+  0.60	6	0	6	6	C6	32519	                                          Ostariophysi
+  0.60	6	0	6	6	C7	186626	                                            Otophysi
+  0.60	6	0	6	6	C8	186627	                                              Cypriniphysae
+  0.60	6	0	6	6	O	7952	                                                Cypriniformes
+  0.60	6	0	6	6	O1	30727	                                                  Cyprinoidei
+  0.40	4	0	4	4	F	7953	                                                    Cyprinidae
+  0.20	2	0	2	2	F1	2743693	                                                      Barbinae
+  0.20	2	0	2	2	G	40829	                                                        Barbus
+  0.20	2	2	2	2	S	40830	                                                          Barbus barbus
+  0.20	2	0	2	2	F1	2743694	                                                      Cyprininae
+  0.20	2	0	2	2	G	7961	                                                        Cyprinus
+  0.20	2	2	2	2	S	7962	                                                          Cyprinus carpio
+  0.20	2	0	2	2	F	2743709	                                                    Danionidae
+  0.20	2	0	2	2	F1	2743711	                                                      Danioninae
+  0.20	2	0	2	2	G	7954	                                                        Danio
+  0.10	1	1	1	1	S	7955	                                                          Danio rerio
+  0.10	1	1	1	1	S	242068	                                                          Danio kyathit
+  0.10	1	0	1	1	C1	32440	                                Chondrostei
+  0.10	1	0	1	1	O	7899	                                  Acipenseriformes
+  0.10	1	0	1	1	O1	186622	                                    Acipenseroidei
+  0.10	1	0	1	1	F	7900	                                      Acipenseridae
+  0.10	1	0	1	1	F1	124129	                                        Acipenserinae
+  0.10	1	0	1	1	F2	124130	                                          Acipenserini
+  0.10	1	0	1	1	G	7901	                                            Acipenser
+  0.10	1	1	1	1	S	7906	                                              Acipenser ruthenus
+  0.10	1	0	1	1	C	7777	                        Chondrichthyes
+  0.10	1	0	1	1	C1	7778	                          Elasmobranchii
+  0.10	1	0	1	1	C2	119203	                            Selachii
+  0.10	1	0	1	1	C3	119197	                              Galeomorphii
+  0.10	1	0	1	1	C4	119195	                                Galeoidea
+  0.10	1	0	1	1	O	30483	                                  Carcharhiniformes
+  0.10	1	0	1	1	F	7826	                                    Scyliorhinidae
+  0.10	1	0	1	1	G	7829	                                      Scyliorhinus
+  0.10	1	1	1	1	S	7830	                                        Scyliorhinus canicula
+  5.50	55	0	98	98	K3	33317	              Protostomia
+  4.30	43	0	81	81	K4	1206794	                Ecdysozoa
+  4.30	43	0	81	81	K5	88770	                  Panarthropoda
+  4.30	43	0	81	81	P	6656	                    Arthropoda
+  4.30	43	0	79	79	P1	197563	                      Mandibulata
+  4.30	43	0	79	79	P2	197562	                        Pancrustacea
+  4.30	43	0	78	78	P3	6960	                          Hexapoda
+  4.30	43	0	78	78	C	50557	                            Insecta
+  4.30	43	0	78	78	C1	85512	                              Dicondylia
+  4.30	43	0	78	78	C2	7496	                                Pterygota
+  4.30	43	0	78	78	C3	33340	                                  Neoptera
+  3.90	39	0	71	71	C4	33392	                                    Endopterygota
+  3.20	32	0	53	53	C5	85604	                                      Amphiesmenoptera
+  3.10	31	0	51	51	O	7088	                                        Lepidoptera
+  3.00	30	0	50	50	O1	41191	                                          Glossata
+  3.00	30	0	50	50	O2	41196	                                            Neolepidoptera
+  3.00	30	0	50	50	O3	41197	                                              Heteroneura
+  3.00	30	0	50	50	O4	37567	                                                Ditrysia
+  2.50	25	2	42	42	O5	104431	                                                  Obtectomera
+  0.70	7	0	10	10	O6	37570	                                                    Noctuoidea
+  0.50	5	0	8	8	F	7100	                                                      Noctuidae
+  0.20	2	0	3	3	F1	95182	                                                        Amphipyrinae
+  0.10	1	0	1	1	G	988055	                                                          Allophyes
+  0.10	1	1	1	1	S	988056	                                                            Allophyes oxyacanthae
+  0.10	1	0	1	1	G	1430964	                                                          Xylocampa
+  0.10	1	1	1	1	S	1870430	                                                            Xylocampa areola
+  0.10	1	0	3	3	F1	95179	                                                        Noctuinae
+  0.10	1	0	1	1	F2	2555566	                                                          Noctuini
+  0.10	1	0	1	1	G	320033	                                                            Diarsia
+  0.10	1	1	1	1	S	987925	                                                              Diarsia rubi
+  0.10	1	0	1	1	F1	95186	                                                        Plusiinae
+  0.10	1	0	1	1	G	254361	                                                          Autographa
+  0.10	1	1	1	1	S	254363	                                                            Autographa gamma
+  0.10	1	0	1	1	F1	95244	                                                        Hadeninae
+  0.10	1	0	1	1	G	988123	                                                          Hecatera
+  0.10	1	1	1	1	S	988125	                                                            Hecatera dysodea
+  0.10	1	0	1	1	F	37571	                                                      Notodontidae
+  0.10	1	0	1	1	F1	319770	                                                        Ptilodontinae
+  0.10	1	0	1	1	G	987448	                                                          Ptilodon
+  0.10	1	1	1	1	S	987449	                                                            Ptilodon capucinus
+  0.10	1	0	1	1	F	695564	                                                      Erebidae
+  0.10	1	0	1	1	F1	1583079	                                                        Erebinae
+  0.10	1	0	1	1	G	938237	                                                          Laspeyria
+  0.10	1	1	1	1	S	938238	                                                            Laspeyria flexula
+  0.50	5	0	10	10	O6	37572	                                                    Papilionoidea
+  0.30	3	0	6	6	F	33415	                                                      Nymphalidae
+  0.20	2	0	2	2	F1	40040	                                                        Nymphalinae
+  0.10	1	0	1	1	F2	171576	                                                          Nymphalini
+  0.10	1	0	1	1	G	42274	                                                            Vanessa
+  0.10	1	1	1	1	S	171605	                                                              Vanessa cardui
+  0.10	1	0	1	1	F2	171578	                                                          Melitaeini
+  0.10	1	0	1	1	F3	171580	                                                            Melitaeina
+  0.10	1	0	1	1	G	104514	                                                              Melitaea
+  0.10	1	1	1	1	S	113334	                                                                Melitaea cinxia
+  0.10	1	0	1	1	F1	127218	                                                        Danainae
+  0.10	1	0	1	1	F2	42315	                                                          Ithomiini
+  0.10	1	0	1	1	F3	344711	                                                            Melinaeina
+  0.10	1	0	1	1	G	64444	                                                              Melinaea
+  0.10	1	0	1	1	S	304554	                                                                Melinaea menophilus
+  0.10	1	1	1	1	S1	331302	                                                                  Melinaea menophilus n. ssp. AW-2005
+  0.20	2	0	3	3	F	27544	                                                      Lycaenidae
+  0.20	2	0	3	3	F1	42297	                                                        Polyommatinae
+  0.10	1	0	1	1	G	138069	                                                          Lysandra
+  0.10	1	1	1	1	S	268709	                                                            Lysandra coridon
+  0.10	1	0	1	1	G	242266	                                                          Plebejus
+  0.10	1	1	1	1	S	242267	                                                            Plebejus argus
+  0.40	4	0	9	9	O6	37573	                                                    Pyraloidea
+  0.20	2	0	6	6	F	7135	                                                      Pyralidae
+  0.10	1	0	3	3	F1	40083	                                                        Phycitinae
+  0.10	1	0	3	3	G	687068	                                                          Acrobasis
+  0.10	1	1	3	3	S	1857951	                                                            Acrobasis suavella
+  0.10	1	0	3	3	F1	299347	                                                        Pyralinae
+  0.10	1	0	1	1	G	1101094	                                                          Endotricha
+  0.10	1	1	1	1	S	1101095	                                                            Endotricha flammealis
+  0.20	2	0	3	3	F	268499	                                                      Crambidae
+  0.10	1	0	1	1	F1	40081	                                                        Crambinae
+  0.10	1	0	1	1	G	1368975	                                                          Calamotropha
+  0.10	1	1	1	1	S	1371681	                                                            Calamotropha paludella
+  0.10	1	0	2	2	F1	299362	                                                        Nymphulinae
+  0.10	1	0	2	2	G	1666817	                                                          Acentria
+  0.10	1	1	2	2	S	1666818	                                                            Acentria ephemerella
+  0.30	3	0	6	6	O6	82592	                                                    Geometroidea
+  0.30	3	0	6	6	F	82593	                                                      Geometridae
+  0.20	2	0	5	5	F1	104450	                                                        Larentiinae
+  0.10	1	0	2	2	G	934939	                                                          Gymnoscelis
+  0.10	1	1	2	2	S	934940	                                                            Gymnoscelis rufifasciata
+  0.10	1	0	1	1	G	214189	                                                          Lobophora
+  0.10	1	1	1	1	S	934876	                                                            Lobophora halterata
+  0.10	1	0	1	1	F1	82596	                                                        Ennominae
+  0.10	1	0	1	1	G	104473	                                                          Erannis
+  0.10	1	1	1	1	S	104474	                                                            Erannis defoliaria
+  0.20	2	0	2	2	O6	104493	                                                    Pterophoroidea
+  0.20	2	0	2	2	F	186111	                                                      Pterophoridae
+  0.20	2	0	2	2	F1	186112	                                                        Pterophorinae
+  0.10	1	0	1	1	G	467773	                                                          Emmelina
+  0.10	1	1	1	1	S	467774	                                                            Emmelina monodactyla
+  0.10	1	0	1	1	G	1594452	                                                          Marasmarcha
+  0.10	1	1	1	1	S	1594453	                                                            Marasmarcha lunaedactyla
+  0.10	1	0	1	1	O6	37569	                                                    Bombycoidea
+  0.10	1	0	1	1	F	7089	                                                      Bombycidae
+  0.10	1	0	1	1	F1	475327	                                                        Bombycinae
+  0.10	1	0	1	1	G	7090	                                                          Bombyx
+  0.10	1	1	1	1	S	7091	                                                            Bombyx mori
+  0.10	1	0	2	2	O6	40092	                                                    Hesperioidea
+  0.10	1	0	2	2	F	40093	                                                      Hesperiidae
+  0.10	1	0	2	2	F1	40096	                                                        Hesperiinae
+  0.10	1	0	2	2	F2	2839394	                                                          Hesperiini
+  0.10	1	0	2	2	G	218743	                                                            Ochlodes
+  0.10	1	1	2	2	S	876063	                                                              Ochlodes sylvanus
+  0.30	3	0	3	3	O5	104430	                                                  Apoditrysia
+  0.10	1	0	1	1	O6	37568	                                                    Tortricoidea
+  0.10	1	0	1	1	F	7139	                                                      Tortricidae
+  0.10	1	0	1	1	F1	81687	                                                        Olethreutinae
+  0.10	1	0	1	1	F2	581385	                                                          Eucosmini
+  0.10	1	0	1	1	G	29054	                                                            Epinotia
+  0.10	1	1	1	1	S	1594294	                                                              Epinotia demarniana
+  0.10	1	0	1	1	O6	104432	                                                    Cossoidea
+  0.10	1	0	1	1	F	186108	                                                      Cossidae
+  0.10	1	0	1	1	F1	1556158	                                                        Zeuzerinae
+  0.10	1	0	1	1	G	655084	                                                          Zeuzera
+  0.10	1	1	1	1	S	1101072	                                                            Zeuzera pyrina
+  0.10	1	0	1	1	O6	104435	                                                    Zygaenoidea
+  0.10	1	0	1	1	F	115354	                                                      Zygaenidae
+  0.10	1	0	1	1	F1	287187	                                                        Zygaeninae
+  0.10	1	0	1	1	G	287110	                                                          Zygaena
+  0.10	1	1	1	1	S	287375	                                                            Zygaena filipendulae
+  0.20	2	0	2	2	O5	37581	                                                  Gelechioidea
+  0.10	1	0	1	1	F	57992	                                                    Oecophoridae
+  0.10	1	0	1	1	F1	116123	                                                      Oecophorinae
+  0.10	1	0	1	1	G	688988	                                                        Esperia
+  0.10	1	1	1	1	S	2870497	                                                          Esperia sulphurella
+  0.10	1	0	1	1	F	2681869	                                                    Depressariidae
+  0.10	1	0	1	1	F1	2925401	                                                      Depressariidae incertae sedis
+  0.10	1	0	1	1	G	116120	                                                        Carcina
+  0.10	1	1	1	1	S	116121	                                                          Carcina quercana
+  0.10	1	0	1	1	O1	41024	                                          Zeugloptera
+  0.10	1	0	1	1	F	41025	                                            Micropterigidae
+  0.10	1	0	1	1	G	41026	                                              Micropterix
+  0.10	1	1	1	1	S	1042620	                                                Micropterix aruncella
+  0.10	1	0	2	2	O	30263	                                        Trichoptera
+  0.10	1	0	2	2	O1	93875	                                          Integripalpia
+  0.10	1	0	2	2	O2	1683728	                                            Plenitentoria
+  0.10	1	0	2	2	O3	41033	                                              Limnephiloidea
+  0.10	1	0	2	2	F	50645	                                                Limnephilidae
+  0.10	1	0	2	2	F1	177669	                                                  Limnephilinae
+  0.10	1	0	2	2	F2	177673	                                                    Limnephilini
+  0.10	1	0	2	2	G	1271741	                                                      Glyphotaelius
+  0.10	1	1	2	2	S	1271742	                                                        Glyphotaelius pellucidus
+  0.30	3	0	8	8	O	7041	                                      Coleoptera
+  0.20	2	0	2	2	O1	41071	                                        Adephaga
+  0.20	2	0	2	2	O2	535382	                                          Caraboidea
+  0.20	2	0	2	2	F	41073	                                            Carabidae
+  0.20	2	0	2	2	F1	71539	                                              Nebriinae
+  0.20	2	0	2	2	F2	60833	                                                Nebriini
+  0.20	2	1	2	2	G	60834	                                                  Nebria
+  0.10	1	0	1	1	G1	186524	                                                    Boreonebria
+  0.10	1	1	1	1	S	878211	                                                      Nebria salina
+  0.10	1	0	6	6	O1	41084	                                        Polyphaga
+  0.10	1	0	5	5	O2	41088	                                          Cucujiformia
+  0.10	1	0	1	1	O3	2939015	                                            Coccinelloidea
+  0.10	1	0	1	1	F	7080	                                              Coccinellidae
+  0.10	1	0	1	1	F1	7081	                                                Coccinellinae
+  0.10	1	0	1	1	F2	263631	                                                  Coccinellini
+  0.10	1	0	1	1	G	7083	                                                    Adalia
+  0.10	1	1	1	1	S	7084	                                                      Adalia bipunctata
+  0.20	2	0	3	3	O	7147	                                      Diptera
+  0.10	1	0	1	1	O1	7148	                                        Nematocera
+  0.10	1	0	1	1	O2	43786	                                          Culicomorpha
+  0.10	1	0	1	1	O3	41827	                                            Culicoidea
+  0.10	1	0	1	1	F	7157	                                              Culicidae
+  0.10	1	0	1	1	F1	43816	                                                Anophelinae
+  0.10	1	0	1	1	G	7164	                                                  Anopheles
+  0.10	1	0	1	1	G1	44534	                                                    Cellia
+  0.10	1	0	1	1	G2	59140	                                                      Myzomyia
+  0.10	1	1	1	1	S	1521116	                                                        Anopheles marshallii
+  0.10	1	0	2	2	O1	7203	                                        Brachycera
+  0.10	1	0	2	2	O2	43733	                                          Muscomorpha
+  0.10	1	0	2	2	O3	480118	                                            Eremoneura
+  0.10	1	0	2	2	O4	480117	                                              Cyclorrhapha
+  0.10	1	0	2	2	O5	43737	                                                Aschiza
+  0.10	1	0	2	2	O6	43740	                                                  Syrphoidea
+  0.10	1	0	2	2	F	34680	                                                    Syrphidae
+  0.10	1	0	2	2	F1	115244	                                                      Eristalinae
+  0.10	1	0	1	1	F2	115284	                                                        Volucellini
+  0.10	1	0	1	1	G	226148	                                                          Volucella
+  0.10	1	1	1	1	S	226149	                                                            Volucella inflata
+  0.20	2	0	5	5	O	7399	                                      Hymenoptera
+  0.20	2	0	4	4	O1	7400	                                        Apocrita
+  0.10	1	0	3	3	O2	7434	                                          Aculeata
+  0.10	1	0	3	3	O3	34735	                                            Apoidea
+  0.10	1	0	1	1	O4	2153468	                                              Spheciformes
+  0.10	1	0	1	1	F	253718	                                                Crabronidae
+  0.10	1	0	1	1	F1	253723	                                                  Pemphredoninae
+  0.10	1	0	1	1	F2	302062	                                                    Pemphredonini
+  0.10	1	0	1	1	F3	421392	                                                      Pemphredonina
+  0.10	1	0	1	1	G	421402	                                                        Pemphredon
+  0.10	1	1	1	1	S	2495172	                                                          Pemphredon lugubris
+  0.10	1	0	1	1	O2	1955251	                                          Parasitoida
+  0.10	1	0	1	1	O3	7401	                                            Ichneumonoidea
+  0.10	1	0	1	1	F	7402	                                              Braconidae
+  0.10	1	0	1	1	F1	65197	                                                Euphorinae
+  0.10	1	0	1	1	G	144405	                                                  Microctonus
+  0.10	1	1	1	1	S	2738948	                                                    Microctonus brassicae
+  0.40	4	0	7	7	C4	33341	                                    Polyneoptera
+  0.30	3	0	6	6	O	7020	                                      Phasmatodea
+  0.30	3	0	6	6	O1	523712	                                        Timematodea
+  0.30	3	0	6	6	O2	213545	                                          Timematoidea
+  0.30	3	0	6	6	F	213546	                                            Timematidae
+  0.30	3	2	6	6	G	61471	                                              Timema
+  0.10	1	1	1	1	S	629358	                                                Timema genevievae
+  0.10	1	0	1	1	O	50622	                                      Plecoptera
+  0.10	1	0	1	1	O1	70405	                                        Nemouroidea
+  0.10	1	0	1	1	F	143733	                                          Leuctridae
+  0.10	1	0	1	1	F1	143769	                                            Leuctrinae
+  0.10	1	0	1	1	G	143734	                                              Leuctra
+  0.10	1	1	1	1	S	143735	                                                Leuctra nigra
+  1.20	12	0	17	17	K4	2697495	                Spiralia
+  1.20	12	0	17	17	K5	1206795	                  Lophotrochozoa
+  0.80	8	0	9	9	P	6447	                    Mollusca
+  0.60	6	0	6	6	C	6544	                      Bivalvia
+  0.60	6	0	6	6	C1	2785011	                        Autobranchia
+  0.40	4	0	4	4	C2	6599	                          Heteroconchia
+  0.40	4	0	4	4	C3	735337	                            Euheterodonta
+  0.40	4	0	4	4	C4	2785015	                              Imparidentia
+  0.40	4	0	4	4	C5	2908833	                                Neoheterodontei
+  0.30	3	0	3	3	O	2783445	                                  Cardiida
+  0.20	2	0	2	2	O1	105710	                                    Cardioidea
+  0.20	2	0	2	2	F	55708	                                      Cardiidae
+  0.20	2	0	2	2	F1	2787994	                                        Tridacninae
+  0.20	2	0	2	2	G	80817	                                          Hippopus
+  0.20	2	2	2	2	S	80818	                                            Hippopus hippopus
+  0.10	1	0	1	1	O1	98297	                                    Tellinoidea
+  0.10	1	0	1	1	F	61354	                                      Psammobiidae
+  0.10	1	0	1	1	G	457750	                                        Gari
+  0.10	1	1	1	1	S	2589376	                                          Gari tellinella
+  0.10	1	0	1	1	O	6580	                                  Venerida
+  0.10	1	0	1	1	O1	74489	                                    Veneroidea
+  0.10	1	0	1	1	F	6592	                                      Veneridae
+  0.10	1	0	1	1	G	6595	                                        Mercenaria
+  0.10	1	1	1	1	S	6596	                                          Mercenaria mercenaria
+  0.20	2	0	2	2	C2	6545	                          Pteriomorphia
+  0.20	2	0	2	2	O	106218	                            Pectinida
+  0.20	2	0	2	2	O1	106219	                              Pectinoidea
+  0.20	2	0	2	2	F	6566	                                Pectinidae
+  0.20	2	0	2	2	G	6578	                                  Pecten
+  0.20	2	2	2	2	S	6579	                                    Pecten maximus
+  0.20	2	0	3	3	C	6448	                      Gastropoda
+  0.10	1	0	1	1	C1	69675	                        Patellogastropoda
+  0.10	1	0	1	1	C2	146277	                          Patelloidea
+  0.10	1	0	1	1	F	6462	                            Patellidae
+  0.10	1	0	1	1	G	6463	                              Patella
+  0.10	1	1	1	1	S	88005	                                Patella pellucida
+  0.10	1	0	2	2	C1	216275	                        Vetigastropoda
+  0.10	1	0	2	2	O	2315720	                          Trochida
+  0.10	1	0	2	2	O1	216285	                            Trochoidea
+  0.10	1	0	2	2	F	6466	                              Trochidae
+  0.10	1	0	2	2	F1	1955429	                                Cantharidinae
+  0.10	1	0	1	1	G	2072689	                                  Steromphala
+  0.10	1	1	1	1	S	216125	                                    Steromphala cineraria
+  0.30	3	0	6	6	P	6157	                    Platyhelminthes
+  0.30	3	0	6	6	C	6178	                      Trematoda
+  0.30	3	0	6	6	C1	6179	                        Digenea
+  0.20	2	0	5	5	O	6180	                          Strigeidida
+  0.20	2	0	5	5	O1	31244	                            Schistosomatoidea
+  0.20	2	0	5	5	F	31245	                              Schistosomatidae
+  0.20	2	0	4	4	G	6181	                                Schistosoma
+  0.10	1	1	2	2	S	31246	                                  Schistosoma mattheei
+  0.10	1	1	1	1	S	48269	                                  Schistosoma margrebowiei
+  0.10	1	0	1	1	O	6193	                          Opisthorchiida
+  0.10	1	0	1	1	O1	6194	                            Opisthorchiata
+  0.10	1	0	1	1	F	6196	                              Opisthorchiidae
+  0.10	1	0	1	1	G	6197	                                Opisthorchis
+  0.10	1	1	1	1	S	6198	                                  Opisthorchis viverrini
+  0.10	1	0	2	2	P	6340	                    Annelida
+  0.10	1	0	2	2	C	42113	                      Clitellata
+  0.10	1	0	1	1	C1	55824	                        Hirudinea
+  0.10	1	0	1	1	O	2218736	                          Hirudinida
+  0.10	1	0	1	1	O1	2218739	                            Oceanobdelliformes
+  0.10	1	0	1	1	F	60930	                              Piscicolidae
+  0.10	1	0	1	1	G	60957	                                Piscicola
+  0.10	1	1	1	1	S	60958	                                  Piscicola geometra
+  0.20	2	0	5	5	K	4751	        Fungi
+  0.20	2	0	5	5	K1	451864	          Dikarya
+  0.20	2	0	4	4	P	4890	            Ascomycota
+  0.20	2	0	4	4	P1	716545	              saccharomyceta
+  0.10	1	0	1	1	P2	147537	                Saccharomycotina
+  0.10	1	0	1	1	C	4891	                  Saccharomycetes
+  0.10	1	0	1	1	O	4892	                    Saccharomycetales
+  0.10	1	0	1	1	O1	2916678	                      CUG-Ser1 clade
+  0.10	1	0	1	1	F	27319	                        Metschnikowiaceae
+  0.10	1	0	1	1	G	36910	                          Clavispora
+  0.10	1	1	1	1	S	36911	                            Clavispora lusitaniae
+  0.10	1	0	3	3	P2	147538	                Pezizomycotina
+  0.10	1	0	3	3	P3	716546	                  leotiomyceta
+  0.10	1	0	2	2	C	147545	                    Eurotiomycetes
+  0.10	1	0	2	2	C1	451871	                      Eurotiomycetidae
+  0.10	1	0	1	1	O	5042	                        Eurotiales
+  0.10	1	0	1	1	F	28568	                          Trichocomaceae
+  0.10	1	0	1	1	G	5094	                            Talaromyces
+  0.10	1	1	1	1	G1	2752537	                              Talaromyces sect. Talaromyces
+  0.60	6	0	19	19	K	33090	      Viridiplantae
+  0.60	6	0	19	19	P	35493	        Streptophyta
+  0.60	6	0	19	19	P1	131221	          Streptophytina
+  0.60	6	0	19	19	P2	3193	            Embryophyta
+  0.60	6	0	19	19	P3	58023	              Tracheophyta
+  0.60	6	0	19	19	P4	78536	                Euphyllophyta
+  0.60	6	0	19	19	P5	58024	                  Spermatophyta
+  0.60	6	0	19	19	C	3398	                    Magnoliopsida
+  0.60	6	0	19	19	C1	1437183	                      Mesangiospermae
+  0.40	4	0	15	15	C2	71240	                        eudicotyledons
+  0.40	4	0	15	15	C3	91827	                          Gunneridae
+  0.40	4	0	15	15	C4	1437201	                            Pentapetalae
+  0.20	2	0	5	5	C5	71274	                              asterids
+  0.10	1	0	1	1	O	41945	                                Ericales
+  0.10	1	0	1	1	F	25692	                                  Balsaminaceae
+  0.10	1	0	1	1	G	35939	                                    Impatiens
+  0.10	1	1	1	1	S	253017	                                      Impatiens glandulifera
+  0.10	1	0	4	4	C6	91888	                                lamiids
+  0.10	1	0	1	1	O	4055	                                  Gentianales
+  0.10	1	0	1	1	F	24966	                                    Rubiaceae
+  0.10	1	0	1	1	F1	169618	                                      Ixoroideae
+  0.10	1	0	1	1	F2	1968429	                                        Gardenieae complex
+  0.10	1	0	1	1	F3	1968428	                                          Bertiereae - Coffeeae clade
+  0.10	1	0	1	1	F4	169640	                                            Coffeeae
+  0.10	1	0	1	1	G	13442	                                              Coffea
+  0.10	1	1	1	1	S	13443	                                                Coffea arabica
+  0.20	2	0	9	9	C5	71275	                              rosids
+  0.10	1	0	6	6	C6	91835	                                fabids
+  0.10	1	0	2	2	O	3744	                                  Rosales
+  0.10	1	0	2	2	F	3745	                                    Rosaceae
+  0.10	1	0	1	1	F1	171637	                                      Amygdaloideae
+  0.10	1	0	1	1	F2	721805	                                        Amygdaleae
+  0.10	1	0	1	1	G	3754	                                          Prunus
+  0.10	1	1	1	1	S	102107	                                            Prunus mume
+  0.10	1	0	3	3	C6	91836	                                malvids
+  0.10	1	0	1	1	O	41944	                                  Myrtales
+  0.10	1	0	1	1	F	3934	                                    Onagraceae
+  0.10	1	0	1	1	F1	1585427	                                      Onagroideae
+  0.10	1	0	1	1	F2	1585433	                                        Epilobieae
+  0.10	1	0	1	1	G	238243	                                          Chamaenerion
+  0.10	1	1	1	1	S	13055	                                            Chamaenerion angustifolium
+  0.20	2	0	3	3	C2	4447	                        Liliopsida
+  0.20	2	0	3	3	C3	1437197	                          Petrosaviidae
+  0.20	2	0	3	3	C4	4734	                            commelinids
+  0.20	2	0	3	3	O	38820	                              Poales
+  0.20	2	0	3	3	F	4613	                                Bromeliaceae
+  0.20	2	0	3	3	F1	1909378	                                  Bromelioideae
+  0.20	2	0	3	3	G	4614	                                    Ananas
+  0.20	2	1	3	3	S	4615	                                      Ananas comosus
+  0.10	1	1	2	2	S1	296719	                                        Ananas comosus var. bracteatus
+  0.50	5	0	12	12	D	2	    Bacteria
+  0.30	3	0	7	7	P	1224	      Proteobacteria
+  0.20	2	0	4	4	C	1236	        Gammaproteobacteria
+  0.20	2	0	2	2	O	91347	          Enterobacterales
+  0.20	2	1	2	2	F	543	            Enterobacteriaceae
+  0.10	1	0	1	1	F1	2890311	              Klebsiella/Raoultella group
+  0.10	1	1	1	1	G	570	                Klebsiella
+  0.10	1	0	3	3	C	28211	        Alphaproteobacteria
+  0.10	1	0	2	2	O	204457	          Sphingomonadales
+  0.10	1	0	2	2	F	41297	            Sphingomonadaceae
+  0.10	1	0	1	1	G	1227948	              Sphingomicrobium
+  0.10	1	1	1	1	S	1582356	                Sphingomicrobium aestuariivivum
+  0.10	1	0	1	1	P	200918	      Thermotogae
+  0.10	1	0	1	1	C	188708	        Thermotogae
+  0.10	1	0	1	1	O	2419	          Thermotogales
+  0.10	1	0	1	1	F	1643950	            Fervidobacteriaceae
+  0.10	1	0	1	1	G	2420	              Thermosipho
+  0.10	1	1	1	1	G1	2676525	                unclassified Thermosipho (in: Bacteria)
+  0.10	1	0	1	1	P	203691	      Spirochaetes
+  0.10	1	0	1	1	C	203692	        Spirochaetia
+  0.10	1	0	1	1	O	136	          Spirochaetales
+  0.10	1	0	1	1	F	2845253	            Treponemataceae
+  0.10	1	0	1	1	G	157	              Treponema
+  0.10	1	0	1	1	S	53419	                Treponema socranskii
+  0.10	1	1	1	1	S1	69713	                  Treponema socranskii subsp. buccale
