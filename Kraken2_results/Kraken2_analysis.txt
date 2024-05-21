@@ -1,0 +1,6 @@
+# Kraken2 was used to indentifiy the best taxonomy for the fastq reads 
+# 1000 random forward and 1000 reverse reads were selected from each sample
+# The reads were matched with the whole NCBI nt database were used "k2_nt_20230502" in Kraken2
+# command detials:
+# kraken2 --quick --memory-mapping --db "/kraken2/k2_nt_20230502" --threads 4 --minimum-base-quality 10 --report-minimizer-data --use-names --classified-out "${sam}_#_classified.fastq" --unclassified-out "${sam}_#_unclassified.fastq" --report ${sam}_1Kread.txt --output "${sam}.kraken" --paired $file1 $file2 
+# https://github.com/DerrickWood/kraken2
