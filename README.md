@@ -5,9 +5,9 @@ Accurate species identification is a critical challenge, particularly in mixed o
 ## Usage
 The step-by-step procedure outlined here is designed for simplicity and effectiveness, offering a robust solution for researchers and practitioners working with NGS data:
 ### Step 1: 
-Align the unlabeled sample to the Sheep reference genome (Tested on ARS-UI_Ramb_v2.0, Illumina, whole genome sequencing).
+Align the unlabeled sample to the Sheep reference genome (Tested on ARS-UI_Ramb_v2.0, Illumina, whole genome sequencing). Tested using bwa-mem. 
 ### Step 2: 
-Align the unlabeled sample to the Goat reference genome (Tested on ARS1.2, Illumina, whole genome sequencing).
+Align the unlabeled sample to the Goat reference genome (Tested on ARS1.2, Illumina, whole genome sequencing). Tested using bwa-mem. 
 ### Step 3: 
 Check the coverage of the Sheep-specific regions in the Sheep-aligned file. The input bed file should be without a header. 
 The output bed file contains four columns, the original three input columns with a fourth column presenting the average coverage in the region.
