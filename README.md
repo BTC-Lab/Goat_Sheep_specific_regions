@@ -48,4 +48,3 @@ Kraken2 was used to identify the best taxonomy for 1000 random forward and 1000 
 
 # Citation
 *** TBA ***
-3 Department of Biomedical Engineering, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates.<br />
