@@ -47,8 +47,5 @@ The screenshot displays NGS Goat samples (upper samples), demonstrating good cov
 Kraken2 was used to identify the best taxonomy for 1000 random forward and 1000 reverse reads from each of 20 goat samples and 20 sheep samples, using the NCBI nt database ("k2_nt_20230502"). 
 
 # Citation
-**Title:** A Genomic Approach for Accurate Identification of Sheep and Goat Species in Next-Generation Sequencing Samples<br />
-Nour al dain Marzouka1, Amira Al-Aamri1, Habiba Alsafar1,2,3<br />
-1 Center for Biotechnology, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates.<br />
-2 College of Medicine and Health Sciences, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates.<br />
+*** TBA ***
 3 Department of Biomedical Engineering, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates.<br />
